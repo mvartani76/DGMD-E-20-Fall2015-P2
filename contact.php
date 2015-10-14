@@ -1,16 +1,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Payment Tracking Home</title>
+  <title>Contact Us</title>
   <link href="./css/menu.css" rel="stylesheet">
-  <link href="./css/contactform.css" rel="stylesheet">
+  <link href="./css/formstyle.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
-    <div class="container">
-    <?php include("./include/menu.php");?>
-  </div>
-</div>
+      <div class="container">
+        <?php include("./include/menu.php");?>
+      </div>
+    </div>
 
 <div class="contactcontainer">  
   <form id="contact" action="" method="post">
