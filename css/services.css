@@ -226,7 +226,7 @@ h2.servicesh2darkerblue {
 
 .mikepic::after {
   content: "";
-  background: url('../images/mikepic.jpg');
+  background: url('../images/mikepic.png');
   background-repeat: no-repeat;
   background-size: contain;
   opacity: 0.25;
