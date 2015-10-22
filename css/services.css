@@ -1,5 +1,248 @@
+/* 2 column layout CSS code for the Services Page */
 article {
-  -webkit-column-count: 2;
-     -moz-column-count: 2;
-          column-count: 2;
+  			-webkit-column-count: 2;
+     		-moz-column-count: 2;
+          	column-count: 2;
+
+			-webkit-column-gap: 30px;
+			-moz-column-gap: 30px;
+			column-gap: 30px;
+
+          	border: 2px solid black;
+          	padding: 7px;
+          	font-size: 16px;
 }
+
+h2.servicesh2lighterblue {
+	color: #0c9eed;
+}
+
+h2.servicesh2darkerblue {
+	color: #001c4e;
+}
+
+@media only screen and (min-width: 1024px) {
+	img.creditcardspic {
+		float: left;
+
+		height: 150px;
+		width: 300px;
+		margin: 10px;
+	}
+
+	img.gasstationpic {
+		float: right;
+
+		height: 125px;
+		width: 250px;
+		margin: 10px;
+	}
+
+	img.restmerchacctpic {
+		float: left;
+
+		height: 150px;
+		width: 250px;
+		margin: 10px;
+	}
+
+	img.mobilepayphonepic {
+		float: left;
+
+		height: 230px;
+		width: 110px;
+		margin: 10px;
+	}
+
+	img.mobilepayphonepic::after {
+		clear: left;
+
+		height: 230px;
+		width: 110px;
+		margin: 10px;
+	}
+
+	img.mobilepaylogospic {
+		float: right;
+
+		height: 150px;
+		width: 250px;
+		margin: 10px;
+		padding: 3px;
+		background-color: white;
+	}
+
+	img.pinbaseddebitpic {
+		float: right;
+
+		height: 150px;
+		width: 350px;
+		margin: 10px;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	img.creditcardspic {
+		float: left;
+
+		height: 100px;
+		width: 200px;
+		margin: 5px;
+	}
+
+	img.creditcardspic::after {
+		clear: left;
+
+		height: 100px;
+		width: 200px;
+		margin: 5px;
+	}
+
+	img.gasstationpic {
+		float: right;
+
+		height: 100px;
+		width: 175px;
+		margin: 5px;
+	}
+
+	img.restmerchacctpic {
+		float: left;
+
+		height: 100px;
+		width: 150px;
+		margin: 5px;
+	}
+
+	img.mobilepayphonepic {
+		float: left;
+
+		height: 180px;
+		width: 95px;
+		margin: 5px;
+	}
+
+	img.mobilepayphonepic::after {
+		clear: left;
+
+		height: 180px;
+		width: 95px;
+		margin: 5px;
+	}
+
+	img.mobilepaylogospic {
+		float: right;
+
+		height: 100px;
+		width: 175px;
+		margin: 5px;
+		padding: 2px;
+		background-color: white;		
+	}
+
+	img.pinbaseddebitpic {
+		float: right;
+
+		flex:none;
+		height: 100px;
+		width: 215px;
+		margin: 5px;
+	}	
+}
+
+@media only screen and (max-width: 768px) {
+	img.creditcardspic {
+		float: left;
+
+		height: 75px;
+		width: 150px;
+		margin: 5px;
+	}
+
+	img.creditcardspic::after {
+		clear: left;
+
+		height: 75px;
+		width: 150px;
+		margin: 5px;
+	}
+
+	img.gasstationpic {
+		float: right;
+
+		height: 75px;
+		width: 125px;
+		margin: 2px;
+	}
+
+	img.restmerchacctpic {
+		float: left;
+
+		height: 150px;
+		width: 250px;
+		margin: 10px;
+	}
+
+	img.mobilepayphonepic {
+		float: left;
+
+		height: 120px;
+		width: 60px;
+		margin: 5px;
+	}
+
+	img.mobilepayphonepic::after {
+		clear: left;
+
+		height: 120px;
+		width: 60px;
+		margin: 5px;
+	}
+
+	img.mobilepaylogospic {
+		float: right;
+
+		height: 75px;
+		width: 140px;
+		margin: 2px;
+		padding: 1px;
+		background-color: white;		
+	}
+
+	img.pinbaseddebitpic {
+		float: right;
+
+		height: 75px;
+		width: 125px;
+		margin: 2px;
+	}	
+}
+
+.mikepic {
+  width: 800px;
+  height: 800px;
+  display: block;
+  position: relative;
+}
+
+.mikepic::after {
+  content: "";
+  background: url('../images/mikepic.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.25;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  horizontal-align: center;
+  z-index: -1;   
+}
+
+
+.div_outside_img_class {
+	    display:flex;
+    	align-items:center;
+}
+
+p.clear {clear: both}
