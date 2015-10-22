@@ -25,8 +25,8 @@
 		<form id="login_id" action="" method="post">
 			<h3>Login</h3>
     		<h4>Please enter your username and password to login...</h4>
-    		<fieldset><input placeholder="Username" type="text" tabindex="1" required autofocus></fieldset>
-    		<fieldset><input placeholder="Password" type="password" tabindex="2" required autofocus></fieldset>
+    		<fieldset><input placeholder="Username" id="username" name="username" type="text" tabindex="1" required autofocus></fieldset>
+    		<fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="2" required autofocus></fieldset>
     		<fieldset>
       		<button name="submit" type="submit" id="login_id-submit" data-submit="...Sending">Submit</button>
     		</fieldset>
