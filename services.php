@@ -10,7 +10,13 @@
 <body>
     <div class="wrapper">
       <div class="container">
-        <?php include("./include/menu.php");?>
+        <ul class="menu">
+          <li><a href="./index.php">Home</a></li>
+          <li class="active"><a href="./services.php">Services</a></li>
+          <li><a href="./login.php">Login</a></li>
+          <li><a href="./register.php">Register</a></li>
+          <li><a href="./contact.php">Contact</a></li>
+        </ul>
       </div>
     </div>
     <article>
@@ -26,8 +32,11 @@
     
       <h2 class="servicesh2darkerblue">Gas Stations and Convenience Store Solutions:</h2>
         <img src="./images/gas-station.jpg" class="gasstationpic">
-        <p>My options include stand-alone terminals, ECRs (Electronic Cash Registers), and pay-at-the-pump applications in either petroleum or c-store environments.
-        I am currently working on integrating some of my solutions with GasTV units and other pump based infotainment devices. I support all major credit and debit cards, private label and Fleet cards, including Wright Express, Voyager, Fuelman, Visa and MasterCard Fleet, and Prepaid Cards.</p>
+        <p>Since I have put a lot of time in to methods for paying me back, I figured I should utilize some of this knowledge into other areas and generate potential revenue from it.
+          One of these areas is the gas station and convenience store payment market.</p>
+        <p>My options in this area include stand-alone terminals, ECRs (Electronic Cash Registers), and pay-at-the-pump applications in either petroleum or c-store environments.
+        I am currently working on integrating some of my solutions with GasTV units and other pump based infotainment devices.</p>
+        <p>Again, I support all major credit and debit cards, private label and Fleet cards, including Wright Express, Voyager, Fuelman, Visa and MasterCard Fleet, and Prepaid Cards.</p>
         
         <p class="clear">&nbsp;</p>
 

@@ -1,20 +1,22 @@
 html { height: 100% }
 body {
 
-    background-image: -webkit-gradient(radial, 50% 0%,100,50% 150%,100, from(#333333), to(#dddddd));
-    background-image: -webkit-radial-gradient(50% 100%, #dddddd, #333333);
-    background-image: -moz-radial-gradient(50% 100%, #dddddd, #333333);
-    background-image: -o-radial-gradient(50% 100%, #dddddd, #333333);
-    background-image: -ms-radial-gradient(50% 100%, #dddddd, #333333);
-    background-image: radial-gradient(50% 100%, #dddddd, #333333);
+    background-image: -webkit-gradient(radial, 50% 0%,100,50% 150%,100, from(#333333), to(#666666));
+    background-image: -webkit-radial-gradient(50% 100%, #666666, #333333);
+    background-image: -moz-radial-gradient(50% 100%, #666666, #333333);
+    background-image: -o-radial-gradient(50% 100%, #666666, #333333);
+    background-image: -ms-radial-gradient(50% 100%, #666666, #333333);
+    background-image: radial-gradient(50% 100%, #666666, #333333);
 
-    overflow: hidden;
+    border: 2px solid red;
+
+    /*overflow: hidden;*/
     height: 100%;
-    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #fff;
     margin: 0;
@@ -48,6 +50,7 @@ body {
 
 .menu {
     height: 80px;
+    width: 100%;
     border-left: 1px solid rgba(0,0,0,0.3);
     border-right: 1px solid rgba(255,255,255,0.3);
     margin: 0 auto;
@@ -61,7 +64,7 @@ a {
     font-weight: bold;
 }
 
-ul {
+ul.menu {
     margin: 0;
     padding: 0;
 }
@@ -75,7 +78,7 @@ ul.menu li {
     background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
     }
 
-ul li a {
+ul.menu li a {
     display: block;
     padding: 0 20px;
     border-left: 1px solid rgba(255,255,255,0.1);
@@ -91,11 +94,23 @@ ul li a {
     }
 
 
-ul li a:hover {
+ul.menu li a:hover {
     background: transparent none;
 }
 
-ul li.active a{
+ul.menu li.active a {
     background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
     background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+}
+
+footer {
+    background-color: #333;
+    height: 80px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+
+    border: 5px solid green;
+
+    margin: 0 auto;
 }

@@ -4,18 +4,27 @@
   <title>Register</title>
   <link href="./css/menu.css" rel="stylesheet">
   <link href="./css/formstyle.css" rel="stylesheet">
+  <link href="./css/services.css" rel="stylesheet">
+  <link href="./css/footer.css" rel="stylesheet">  
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>  
 </head>
 <body>
     <div class="wrapper">
       <div class="container">
-        <?php include("./include/menu.php");?>
+        <ul class="menu">
+          <li><a href="./index.php">Home</a></li>
+          <li><a href="./services.php">Services</a></li>
+          <li><a href="./login.php">Login</a></li>
+          <li class="active"><a href="./register.php">Register</a></li>
+          <li><a href="./contact.php">Contact</a></li>
+        </ul>
       </div>
     </div>
 
-<div class="contactcontainer">  
+<div class="registercontainer">  
   <form id="register_id" action="" method="post">
-    <h3>Quick Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <h3>Registration</h3>
+    <h4>Please fill out the information below to register with my site...</h4>
     <fieldset><input placeholder="First Name" type="text" tabindex="1" required autofocus></fieldset>
     <fieldset><input placeholder="Last Name" type="text" tabindex="2" required autofocus></fieldset>
     <fieldset><input placeholder="Street Address 1" type="text" tabindex="3" required autofocus></fieldset>
