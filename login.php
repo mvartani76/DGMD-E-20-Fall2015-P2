@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <title>Login</title>
@@ -22,17 +22,16 @@
                 <li><a href="./contact.php">Contact</a></li>
               </ul>
           </li>
-        </li>
         </ul>
       </div>
     </div>
 
 	<div class="logincontainer">  
-		<form id="login_id" action="" method="post">
+		<form id="login_id" method="post">
 			<h3>Login</h3>
     		<h4>Please enter your username and password to login...</h4>
     		<fieldset><input placeholder="Username" id="username" name="username" type="text" tabindex="1" required autofocus></fieldset>
-    		<fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="2" required autofocus></fieldset>
+    		<fieldset><input placeholder="Password" id="userpassword" name="userpassword" type="password" tabindex="2" required></fieldset>
     		<fieldset>
       		<button name="submit" type="submit" id="login_id-submit" data-submit="...Sending">Submit</button>
     		</fieldset>

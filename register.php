@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <title>Register</title>
@@ -22,24 +22,23 @@
                 <li><a href="./contact.php">Contact</a></li>
               </ul>
           </li>
-        </li>
         </ul>
       </div>
     </div>
 
 <div class="registercontainer">  
-  <form id="register_id" action="" method="post">
+  <form id="register_id" method="post">
     <h3>Registration</h3>
     <h4>Please fill out the information below to register with my site...</h4>
     <div class="form50">
       <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus></fieldset>
-      <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required autofocus></fieldset>
-      <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required autofocus></fieldset>
-      <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4" autofocus></fieldset>
-      <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required autofocus></fieldset>
-      <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required autofocus></fieldset>
-      <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required autofocus></fieldset>
-      <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required autofocus></fieldset>
+      <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required></fieldset>
+      <fieldset><input placeholder="Street Address 1" id="streetaddr1" name="streetaddr1" type="text" tabindex="3" required></fieldset>
+      <fieldset><input placeholder="Street Address 2" id="streetaddr2" name="streetaddr2" type="text" tabindex="4"></fieldset>
+      <fieldset><input placeholder="City" id="city" name="city" type="text" tabindex="5" required></fieldset>
+      <fieldset><input placeholder="State/Province" id="state_prov" name="state_prov" type="text" tabindex="6" required></fieldset>
+      <fieldset><input placeholder="Zip Code / Postal Code" id="zip_post_code" name="zip_post_code" type="text" tabindex="7" required></fieldset>
+      <fieldset><input placeholder="Country" id="country" name="country" type="text" tabindex="8" required></fieldset>
     </div>
     <div class="form50">
       <fieldset><input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="9" required></fieldset>
