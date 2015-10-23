@@ -26,6 +26,7 @@
         </ul>
       </div>
     </div>
+    
     <div class="messydeskpic">
       <div class="storyandsolution">
       <h1>My Basic Problem</h1>
@@ -33,16 +34,25 @@
       <img src="./images/greedy-man-asking-for-money.jpg" alt="Greedy Man" class="greedyhandspic">
       <p>So here is the basic story... The abbreviated version of course...:)</p>
       <p>I have loaned out way too much money to my friends and it has become very difficult for
-      me to keep track of who owes me what... I shouldn't be loaning out this money but I feel bad and am a gigantic sucker...</p>
+      me to keep track of who owes me what...</p>
+      <p>Of course I should not have been loaning out this money as it was causing me a
+      lot of grief and I was not getting paid back 100% but I feel bad for the people asking to borrow money
+      and am a gigantic sucker...</p>
       <p class="clear">&nbsp;</p>
       <img src="./images/woman-asking-for-money.jpg" alt="Woman Asking for Money" class="womanaskingformoneypic">
       <p>Any sob story you tell me can extract any amount of money from me...</p>
-      <p> <em>"I cannot pay you rent because I forgot about my
-        insurance payment..." "I will get you your money next week..."</em>
+      <p><em>"I am trying to pay my way through my web development class and cannot afford to pay rent now..."</em></p>
+      <p><em>"I cannot pay you rent because I forgot about my
+        insurance payment..."</em></p>
+      <p><em>"I will get you your money next week..."</em></p>
+      <p><em>"I thought you didn't need the money until next week?"</em></p>
+      <p><em>"Wait a second... I thought I only owed you two thousand bucks?"</em></p>
       <p>I have tried to work on this but have not been able
       to correct this non-productive behavior of mine...</p>
       <p class="clear">&nbsp;</p>
       <img src="./images/man-pulling-hair-out.jpg" alt="Man Pulling His Hair Out" class="manpullinghairoutpic">
+      <img src="./images/guy-pulling-hair-out2.jpg" alt="Another Man Pulling His Hair Out" class="manpullinghairoutpic">
+      <img src="./images/hair-pulling.jpg" alt="And Another Man Pulling His Hair Out" class="manpullinghairoutpic">
       <p>With all of today's technology I figured there should be an easy way for me to keep better track of the money that is owed
         to me as well as facilitate methods for more convenient payment methods (both for me and the person that owes me money!!)</p>
 
@@ -64,7 +74,6 @@
           I can connect my solution with other systems and infrastructure such as payment, workforce, and asset tracking 
           solutions, both new and legacy.</p>
           <h1>Is this for you?</h1>
-          <img src="./images/mikepic.png" alt="Picture of Mike" class="mikepic">
           <p>Well if you owe me money, you have to use this...:) If you want to borrow money from me, you have to use this...:)
       </div>
     </div>

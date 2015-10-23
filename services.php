@@ -1,4 +1,4 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <title>Services</title>
@@ -25,6 +25,7 @@
         </ul>
       </div>
     </div>
+    <div class="servicestitle">My Services</div>
     <article>
       <h2 class="servicesh2lighterblue">Retail Merchant Account:</h2>
         <img class="creditcardspic" src="./images/credit-cards.jpg">
