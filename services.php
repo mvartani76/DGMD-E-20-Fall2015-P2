@@ -9,13 +9,19 @@
 </head>
 <body>
     <div class="wrapper">
-      <div class="container">
-        <ul class="menu">
-          <li><a href="./index.php">Home</a></li>
-          <li class="active"><a href="./services.php">Services</a></li>
-          <li><a href="./login.php">Login</a></li>
-          <li><a href="./register.php">Register</a></li>
-          <li><a href="./contact.php">Contact</a></li>
+      <div class="navigation">
+        <ul class="nav">
+            <li class="logo"><a href="#">Mike's Payments</a>
+            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
+              <ul class="menu">
+                <li><a href="./index.php">Home</a></li>
+                <li class="active"><a href="./services.php">Services</a></li>
+                <li><a href="./login.php">Login</a></li>
+                <li><a href="./register.php">Register</a></li>
+                <li><a href="./contact.php">Contact</a></li>
+              </ul>
+          </li>
+        </li>
         </ul>
       </div>
     </div>
@@ -79,11 +85,5 @@
 
         <p><strong>Real-time Payment Manager (RPM) –</strong> The Virtual Terminal works as base access point for the gateway solution. Its back-office web product allows you to easily look up transaction activity, service your consumers and reconcile your online store. Functionalities include detailed reporting, transaction dashboard, online virtual point-of-sale terminal, transaction history search, recurring payment plans, user administration and more.</P>
     </article>
-
-        <div class="wrapper">
-      <div class="container">
-    <?php include("./include/footer.php");?>
-</div>
-</div>
 </body>
 </html>

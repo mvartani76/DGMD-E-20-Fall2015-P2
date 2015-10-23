@@ -10,13 +10,19 @@
 </head>
 <body>
     <div class="wrapper">
-      <div class="container">
-        <ul class="menu">
-          <li><a href="./index.php">Home</a></li>
-          <li><a href="./services.php">Services</a></li>
-          <li><a href="./login.php">Login</a></li>
-          <li><a href="./register.php">Register</a></li>
-          <li class="active"><a href="./contact.php">Contact</a></li>
+      <div class="navigation">
+        <ul class="nav">
+            <li class="logo"><a href="#">Mike's Payments</a>
+            <li class="btn"><a href="#" class="btn-link">&#9776;</a>
+              <ul class="menu">
+                <li><a href="./index.php">Home</a></li>
+                <li><a href="./services.php">Services</a></li>
+                <li><a href="./login.php">Login</a></li>
+                <li><a href="./register.php">Register</a></li>
+                <li class="active"><a href="./contact.php">Contact</a></li>
+              </ul>
+          </li>
+        </li>
         </ul>
       </div>
     </div>
@@ -28,8 +34,8 @@
     <fieldset><input placeholder="First Name" id="firstname" name="firstname" type="text" tabindex="1" required autofocus></fieldset>
     <fieldset><input placeholder="Last Name" id="lastname" name="lastname" type="text" tabindex="2" required autofocus></fieldset>
     <fieldset><input placeholder="Your Email Address" id="emailaddr" name="emailaddr" type="email" tabindex="3" required></fieldset>
-    <fieldset><input placeholder="Your Phone Number"id="phonenumber" name="phonenumber" type="tel" tabindex="4" required></fieldset>
-    <fieldset><input placeholder="Your Web Site starts with http://"id="weburl" name="weburl" type="url" tabindex="5">
+    <fieldset><input placeholder="Your Phone Number" id="phonenumber" name="phonenumber" type="tel" tabindex="4" required></fieldset>
+    <fieldset><input placeholder="Your Web Site starts with http://" id="weburl" name="weburl" type="url" tabindex="5">
     </fieldset>
 	<fieldset><h4>What type of message do you want to send?</h4>
 	    <input type="radio" id="dept" name="dept" value="general" tabindex="6" checked> General
