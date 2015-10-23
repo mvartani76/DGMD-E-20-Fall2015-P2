@@ -1,4 +1,4 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <title>Payment Tracking Home</title>
