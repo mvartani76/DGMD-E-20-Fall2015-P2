@@ -18,7 +18,7 @@ body {
     background-image: -ms-radial-gradient(50% 100%, #666666, #333333);
     background-image: radial-gradient(50% 100%, #666666, #333333);
 
-    border: 2px solid red;
+    height: 100%;
 }
 
 body {
@@ -28,17 +28,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #dddddd;
-
 }
 
 .wrapper {
     position: fixed;
     top: 0;
     left: 0;
+    
     width: 100%;
     padding: 0px;
     height: 80px;
-    
     
     z-index: 9999;
 
