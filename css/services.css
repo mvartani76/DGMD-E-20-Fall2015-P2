@@ -24,6 +24,10 @@ h2.servicesh2darkerblue {
 	color: #001c4e;
 }
 
+article p strong{
+	color: #0c9eed;
+}
+
 @media only screen and (min-width: 1024px) {
 	img.creditcardspic {
 		float: left;
@@ -220,19 +224,19 @@ h2.servicesh2darkerblue {
 	}	
 }
 
-.mikepic {
-  width: 800px;
-  height: 800px;
+.messydeskpic {
+  width: 100%;
+  height: 100%;
   display: block;
   position: relative;
 }
 
-.mikepic::after {
+.messydeskpic::after {
   content: "";
-  background: url('../images/mikepic.png');
-  background-repeat: no-repeat;
+  background: url('../images/messy-desk-big-pile.jpg');
+  background-repeat: repeat;
   background-size: contain;
-  opacity: 0.25;
+  opacity: 0.05;
   top: 0;
   left: 0;
   bottom: 0;
