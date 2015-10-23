@@ -11,6 +11,9 @@ article {
           	border: 2px solid black;
           	padding: 7px;
           	font-size: 16px;
+			font-family: 'Montserrat', sans-serif;
+			position: relative;
+			top: 100px;
 }
 
 h2.servicesh2lighterblue {
@@ -238,7 +241,6 @@ h2.servicesh2darkerblue {
   horizontal-align: center;
   z-index: -1;   
 }
-
 
 .div_outside_img_class {
 	    display:flex;
