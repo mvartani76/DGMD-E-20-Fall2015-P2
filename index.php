@@ -26,7 +26,7 @@
         </ul>
       </div>
     </div>
-    <div class="mikepic">
+    <div class="messydeskpic">
       <h1>My Basic Problem</h1>
       <p>So here is the basic story... I have loaned out way too much money to my friends and it has become very difficult for
       me to keep track of who owes me what... I shouldn't be loaning out this money but I feel bad and am a gigantic sucker...
