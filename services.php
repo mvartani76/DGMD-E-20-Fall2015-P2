@@ -4,7 +4,7 @@
   <title>Services</title>
   <link href="./css/menu.css" rel="stylesheet">
   <link href="./css/services.css" rel="stylesheet">
-  <link href="./css/footer.css" rel="stylesheet">
+  <link href="./css/imagestyle.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
