@@ -35,13 +35,22 @@ article p strong{
 	color: #0c9eed;
 }
 
+.boxshadowclass {
+	
+}
+
+
 @media only screen and (min-width: 1024px) {
 	img.creditcardspic {
 		float: left;
 
 		height: 150px;
 		width: 300px;
-		margin: 10px;
+		margin: 15px;
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
 	}
 
 	img.gasstationpic {
@@ -49,7 +58,11 @@ article p strong{
 
 		height: 125px;
 		width: 250px;
-		margin: 10px;
+		margin: 15px;
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
 	}
 
 	img.restmerchacctpic {
@@ -57,7 +70,11 @@ article p strong{
 
 		height: 150px;
 		width: 250px;
-		margin: 10px;
+		margin: 15px;
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.mobilepayphonepic {
@@ -76,6 +93,10 @@ article p strong{
 		margin: 10px;
 		padding: 3px;
 		background-color: white;
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
 	}
 
 	img.pinbaseddebitpic {
@@ -84,6 +105,12 @@ article p strong{
 		height: 150px;
 		width: 350px;
 		margin: 10px;
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+
+		border-radius: 20px
 	}
 
 	img.womanaskingformoneypic {
@@ -92,6 +119,10 @@ article p strong{
 		height: 200px;
 		width: 350px;
 		margin: 10px;	
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
 	}
 
 	img.greedyhandspic {
@@ -101,6 +132,10 @@ article p strong{
 		width: 330px;
 		margin: 10px;
 		border-radius: 7px;	
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.manpullinghairoutpic {
@@ -109,6 +144,10 @@ article p strong{
 		height: 180px;
 		width: 250px;
 		margin: 10px;		
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.paperondeskpic {
@@ -117,24 +156,24 @@ article p strong{
 		height: 200px;
 		width: 350px;
 		margin: 10px;	
+
+		-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.36);		
 	}
-
-	img.mikepic {
-		float: right;
-
-		height: 350px;
-		width: 350px;
-		margin: 10px;	
-	}
-
 }
+
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
 	img.creditcardspic {
 		float: left;
 
 		height: 100px;
 		width: 200px;
-		margin: 5px;
+		margin: 10px;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
 	}
 
 	img.gasstationpic {
@@ -143,6 +182,10 @@ article p strong{
 		height: 100px;
 		width: 175px;
 		margin: 5px;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.restmerchacctpic {
@@ -150,7 +193,11 @@ article p strong{
 
 		height: 100px;
 		width: 150px;
-		margin: 5px;
+		margin: 10px;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.mobilepayphonepic {
@@ -166,9 +213,13 @@ article p strong{
 
 		height: 100px;
 		width: 175px;
-		margin: 5px;
+		margin: 10px;
 		padding: 2px;
-		background-color: white;		
+		background-color: white;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
 	}
 
 	img.pinbaseddebitpic {
@@ -176,7 +227,13 @@ article p strong{
 
 		height: 100px;
 		width: 215px;
-		margin: 5px;
+		margin: 10px;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);		
+
+		border-radius: 20px
 	}
 
 	img.womanaskingformoneypic {
@@ -185,6 +242,10 @@ article p strong{
 		height: 125px;
 		width: 220px;
 		margin: 7px;	
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.greedyhandspic {
@@ -193,7 +254,11 @@ article p strong{
 		height: 220px;
 		width: 300px;
 		margin: 7px;
-		border-radius: 7px;		
+		border-radius: 7px;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);				
 	}
 
 	img.manpullinghairoutpic {
@@ -201,7 +266,11 @@ article p strong{
 
 		height: 140px;
 		width: 200px;
-		margin: 7px;		
+		margin: 7px;
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);				
 	}
 
 	img.paperondeskpic {
@@ -210,15 +279,11 @@ article p strong{
 		height: 150px;
 		width: 300px;
 		margin: 7px;	
+
+		-webkit-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);
+		box-shadow: 7px 7px 3px 0px rgba(0,0,0,0.36);		
 	}
-
-	img.mikepic {
-		float: right;
-
-		height: 350px;
-		width: 350px;
-		margin: 10px;	
-	}	
 }
 
 @media only screen and (max-width: 768px) {
@@ -227,7 +292,11 @@ article p strong{
 
 		height: 75px;
 		width: 150px;
-		margin: 5px;
+		margin: 7px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
 	}
 
 	img.gasstationpic {
@@ -235,7 +304,11 @@ article p strong{
 
 		height: 75px;
 		width: 125px;
-		margin: 2px;
+		margin: 7px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
 	}
 
 	img.restmerchacctpic {
@@ -243,7 +316,11 @@ article p strong{
 
 		height: 150px;
 		width: 250px;
-		margin: 10px;
+		margin: 7px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.mobilepayphonepic {
@@ -259,9 +336,13 @@ article p strong{
 
 		height: 75px;
 		width: 140px;
-		margin: 2px;
+		margin: 7px;
 		padding: 1px;
-		background-color: white;		
+		background-color: white;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.pinbaseddebitpic {
@@ -269,7 +350,13 @@ article p strong{
 
 		height: 75px;
 		width: 125px;
-		margin: 2px;
+		margin: 7px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+
+		border-radius: 20px		
 	}
 
 	img.womanaskingformoneypic {
@@ -277,7 +364,11 @@ article p strong{
 
 		height: 90px;
 		width: 175px;
-		margin: 4px;	
+		margin: 4px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);			
 	}
 
 	img.greedyhandspic {
@@ -286,7 +377,11 @@ article p strong{
 		height: 150px;
 		width: 225px;
 		margin: 4px;
-		border-radius: 7px;		
+		border-radius: 7px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);		
 	}
 
 	img.manpullinghairoutpic {
@@ -294,7 +389,11 @@ article p strong{
 
 		height: 110px;
 		width: 160px;
-		margin: 5px;		
+		margin: 5px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);				
 	}
 
 	img.paperondeskpic {
@@ -302,16 +401,12 @@ article p strong{
 
 		height: 150px;
 		width: 300px;
-		margin: 7px;	
+		margin: 7px;
+
+		-webkit-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		-moz-box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);
+		box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.36);		
 	}
-
-	img.mikepic {
-		float: right;
-
-		height: 350px;
-		width: 350px;
-		margin: 10px;	
-	}	
 }
 
 .messydeskpic {
